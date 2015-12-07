@@ -1,0 +1,52 @@
+"#menuWrapper": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	backgroundColor: "transparent",
+	top: '0',
+	left: Alloy.Globals.device.widthNegative,
+	layout: "absolute"
+}
+
+"#menu": {
+	height: Ti.UI.FILL,
+	width: "250dp",
+	backgroundColor: "#FFFFFF",
+	bubbleParent: false,
+	left: '0',
+	top: '0',
+	layout: "vertical"
+}
+
+"#menuFillRight": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	backgroundColor: "#000",
+	opacity: "0.0",
+	top: '0',
+	left: '250dp'
+}
+
+"#menuIcon": {
+	height: '80',
+	width: '80',
+	image: "https://placeholdit.imgix.net/~text?txtsize=10&txt=80%C3%9780&w=80&h=80",
+	top: "40",
+	center: { x: "50%" },
+}
+
+"#menuTitle": {
+	text: "Menu Title",
+	color: "#000000",
+	top: "10",
+	center: { x: "50%" },
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	font: { fontSize: '18' }
+}
+
+"#nodes": {
+	top: '20',
+	left: '0',
+	height: Ti.UI.FILL,
+	separatorColor: "transparent"
+}

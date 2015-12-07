@@ -1,0 +1,40 @@
+"#row": {
+	layout: "absolute",
+	height: 40,
+	width: Ti.UI.FILL,
+	backgroundColor: "transparent"
+}
+
+"#row[platform=ios]": {
+	selectedBackgroundColor: "#DDDDDD"
+}
+
+"#row[platform=android]": {
+	backgroundSelectedColor: "#DDDDDD"
+}
+
+"#rowWrapper": {
+	layout: "absolute",
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	left: 0,
+	top: 0
+}
+
+"#rowImage": {
+	height: 25,
+	width: 25,
+	left: 15,
+	center: { y: "50%" }
+}
+
+"#rowLabel": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	left: 55,
+	center: { y: "50%" },
+	color: "#000",
+	font: {
+		fontSize: 14
+	}
+}

@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="menuWrapper">
+		<View id="menu">
+			<ImageView id="menuIcon" />
+			<Label id="menuTitle" />
+			<TableView id="nodes" />
+		</View>
+		<View id="menuFillRight" />
+	</View>
+</Alloy>
