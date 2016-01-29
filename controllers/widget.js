@@ -35,7 +35,7 @@ $.toggleMenu = function() {
 	// Make sure the menu is on top of all the other UI layers and
 	// account for android matrix translation weirdness.
 	if(!isOpen){ $.menuWrapper.setZIndex(1000); }
-	var deviceWidth = Alloy.Globals.device.width * ((OS_IOS) ? 1 : 3); // Android bug/weirdness
+	var deviceWidth = Alloy.Globals.device.width * ((OS_IOS) ? 1 : (Alloy.Globals.device.dpi/160.0)); // Android bug/weirdness
 
 	// Create the matrix and translate it depending on whether we 
 	// want to open or close the menu (slide to the left if the menu
